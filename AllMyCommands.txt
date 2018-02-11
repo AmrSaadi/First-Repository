@@ -1,0 +1,23 @@
+a) git init
+
+b)  git add Getting_Started.txt
+    git add Git_Branching.txt
+    git add Distributed_Git.txt
+
+c) *I deleted Git_Branching.txt*
+
+d) git checkout Git_Branching.txt
+
+e) git commit -m "first commit with all 3 book content files"
+
+f) git remote add origin https://github.com/AmrSaadi/First-Repository.git
+   git push -u origin master
+
+g)*I created the file README.md*
+
+h) git branch ReadMe
+
+i) git checkout ReadMe
+   git add README.md
+
+j) git commit -m "made new branch called ReadMe and added the file README.md to it"

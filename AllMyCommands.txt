@@ -1,8 +1,8 @@
 a) git init
 
-b)  git add Getting_Started.txt
-    git add Git_Branching.txt
-    git add Distributed_Git.txt
+b) git add Getting_Started.txt
+   git add Git_Branching.txt
+   git add Distributed_Git.txt
 
 c) *I deleted Git_Branching.txt*
 
@@ -21,3 +21,9 @@ i) git checkout ReadMe
    git add README.md
 
 j) git commit -m "made new branch called ReadMe and added the file README.md to it"
+
+k) git checkout master
+   git merge ReadMe
+
+i) git add AllMyCommands.txt
+   git commit -m "after adding AllMyComamands.txt"

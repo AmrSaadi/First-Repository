@@ -8,7 +8,7 @@ import { Product } from '../../product.model';
 @Component({
   selector: 'app-dashboard-items',
   templateUrl: './items.component.html',
-  styleUrls: ['./items.component.scss']
+  styleUrls: []
 })
 export class ItemsComponent implements OnInit {
 
